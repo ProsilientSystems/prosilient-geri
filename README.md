@@ -20,6 +20,9 @@ For GeRI, a wrist worn wearable with accelerometry and a smart scale with bio im
 ## Acknowledgements
 The Firoz services are named in memory of my late father, Firoz, who passed away after battling cancer twice and was the first software engineer in his family.
 
+
+<img src="Firoz-circle.png" alt="portrait of firoz" width="150" />
+
 ## Architecture
 
 The Firoz platform is composed of the following components, some of which were modified for the GeRI. Each component is grouped into either the hub (patient use oriented) or the cloud (physician use oriented).
