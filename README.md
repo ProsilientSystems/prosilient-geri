@@ -124,3 +124,14 @@ Accessible Diagram Summary:
 
   * Purpose: A collection of protobuf DTOs used for communication between Firoz Cloud Connect and Prosilient Sync.
   * Repository:
+
+## Building
+* Firoz Ansible
+
+  * Purpose: A collection of ansible playbooks for building components the Firoz hub.
+  * Repository:
+
+* Firoz Pi Gen
+
+  * Purpose: A modified pi gen repository to prepare final OS builds for Firoz hub devices.
+  * Repository:
