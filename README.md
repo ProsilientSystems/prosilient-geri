@@ -77,7 +77,7 @@ Accessible Diagram Summary:
 * Firoz Bangle
 
   * Purpose: Bangle JS firmware for GeRI spec accelerometer data collection.
-  * Repository:
+  * Repository: 
   * Technologies: JavaScript (Bangle spec)
   * Summary: GeRI requires 48 hours of accelerometry data collection. This is specialised for fast reconnection, efficient compression, and storage of accelerometry data, stretching the hardware limitations of the BangleJS to its absolute limits.
 
@@ -86,35 +86,35 @@ Accessible Diagram Summary:
 * Prosilient Sync
 
   * Purpose: Authenticate Firoz devices and synchronise their local data. Primarily ingress.
-  * Repository:
+  * Repository: [prosilient-sync](https://github.com/ProsilientSystems/prosilient-sync)
   * Technologies: Rust
   * Summary: Supports authenticating devices with the cloud through passwordless authentication, followed by ingress only permissions for secure data collection from Firoz devices. Ensures reliable message deliveries and reconnections.
 
 * Prosilient Cloud
 
   * Purpose: Primary API layer for read only access to collected data.
-  * Repository:
+  * Repository: [prosilient-cloud](https://github.com/ProsilientSystems/prosilient-cloud)
   * Technologies: Python
   * Summary: Network limited read only access over the entirety of patient data with valuable statistics and metadata for relevant exploration and reporting support.
 
 * Prosilient Cloud Console
 
   * Purpose: Dashboard for physicians to monitor patients and explore data with report generation.
-  * Repository:
+  * Repository: [prosilient-cloud-console](https://github.com/ProsilientSystems/prosilient-cloud-console)
   * Technologies: Svelte
-  * Summary: An intuitive dashboard primarily for physician use allows them to review adherence from patients along with data collection metrics and device status and availability.
+  * Summary: An intuitive, physician-facing dashboard that lets clinicians review adherence, data collection, metrics and device status/availability.
 
 * Prosilient Cloud Reporting
 
   * Purpose: Generate reports requested by physicians
-  * Repository:
+  * Repository: [prosilient-cloud-reporting](https://github.com/ProsilientSystems/prosilient-cloud-reporting)
   * Technologies: Python
   * Summary: Data aggregation and CSV report generator.
 
-* Prosilient AI
+* Prosilient Cloud AI
 
   * Purpose: Run different AI models
-  * Repository:
+  * Repository: [prosilient-cloud-ai](https://github.com/ProsilientSystems/prosilient-cloud-ai)
   * Technologies: Python
   * Summary: Accelerometry data needs to be converted into multiple different metrics, like activity. This service facilitates that by hosting multiple models and running the requested data through those models.
 
@@ -123,7 +123,7 @@ Accessible Diagram Summary:
 * Prosilient Protobuf
 
   * Purpose: A collection of protobuf DTOs used for communication between Firoz Cloud Connect and Prosilient Sync.
-  * Repository:
+  * Repository: [prosilient-geri-protobuf](https://github.com/ProsilientSystems/prosilient-geri-protobuf)
 
 ## Building
 * Firoz Ansible
